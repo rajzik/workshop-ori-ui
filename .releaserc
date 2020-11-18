@@ -1,0 +1,17 @@
+{
+  "branches": [
+    "release",
+    {
+      "name": "develop",
+      "channel": "channel-next",
+      "prerelease": true
+    },
+    {
+      "name": "*",
+      "channel": "channel-${name}",
+      "prerelease": true
+    }
+  ],
+  "extends": "@oriflame/semantic-release-config",
+  "repositoryUrl": ""
+}
