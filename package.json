@@ -48,6 +48,8 @@
     "start": "lumos create-config webpack --silent && lumos-webpack-server"
   },
   "dependencies": {
+    "@ori-ui/components": "^1.0.1",
+    "@ori-ui/icons": "^1.0.0",
     "@ori-ui/material-ui": "^1.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"

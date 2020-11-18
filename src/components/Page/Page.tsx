@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-no-literals */
 import React from 'react';
 
 export default function Page() {

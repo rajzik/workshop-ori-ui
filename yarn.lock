@@ -1819,6 +1819,17 @@
   dependencies:
     "@types/node" ">= 8"
 
+"@ori-ui/components@^1.0.1":
+  version "1.0.1"
+  resolved "https://oriflame.pkgs.visualstudio.com/_packaging/node/npm/registry/@ori-ui/components/-/components-1.0.1.tgz#86a55ef04077d56de3c85c5e614d8a06b1895eed"
+  integrity sha1-hqVe8EB31W3jyFxeYU2KBrGJXu0=
+  dependencies:
+    "@material-ui/core" "^4.11.0"
+    "@material-ui/lab" "^4.0.0-alpha.56"
+    "@material-ui/styles" "^4.10.0"
+    "@ori-ui/icons" "^1.0.0"
+    clsx "^1.1.1"
+
 "@ori-ui/icons@^1.0.0":
   version "1.0.0"
   resolved "https://oriflame.pkgs.visualstudio.com/_packaging/node/npm/registry/@ori-ui/icons/-/icons-1.0.0.tgz#7f4acf90cbaf613b03d3c8ff18dc4afd84241773"
