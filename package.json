@@ -18,7 +18,8 @@
     "@types/react": "^16.9.56",
     "@types/react-dom": "^16.9.9",
     "husky": "^4.3.0",
-    "lint-staged": "^10.5.1"
+    "lint-staged": "^10.5.1",
+    "typescript-utility-types": "^1.1.1"
   },
   "lumos": {
     "drivers": [
@@ -48,7 +49,7 @@
     "start": "lumos create-config webpack --silent && lumos-webpack-server"
   },
   "dependencies": {
-    "@ori-ui/components": "^1.0.1",
+    "@ori-ui/components": "^1.0.2",
     "@ori-ui/icons": "^1.0.0",
     "@ori-ui/material-ui": "^1.0.1",
     "clsx": "^1.1.1",

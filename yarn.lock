@@ -1819,10 +1819,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@ori-ui/components@^1.0.1":
-  version "1.0.1"
-  resolved "https://oriflame.pkgs.visualstudio.com/_packaging/node/npm/registry/@ori-ui/components/-/components-1.0.1.tgz#86a55ef04077d56de3c85c5e614d8a06b1895eed"
-  integrity sha1-hqVe8EB31W3jyFxeYU2KBrGJXu0=
+"@ori-ui/components@^1.0.2":
+  version "1.0.2"
+  resolved "https://oriflame.pkgs.visualstudio.com/_packaging/node/npm/registry/@ori-ui/components/-/components-1.0.2.tgz#240b31b18bc44cfbd86de9410cecb0fd85ea639b"
+  integrity sha1-JAsxsYvETPvYbelBDOyw/YXqY5s=
   dependencies:
     "@material-ui/core" "^4.11.0"
     "@material-ui/lab" "^4.0.0-alpha.56"
@@ -11515,6 +11515,11 @@ typedarray-to-buffer@^3.1.5:
   integrity sha512-zdu8XMNEDepKKR+XYOXAVPtWui0ly0NtohUscw+UmaHiAWT8hrV1rr//H6V+0DvJ3OQ19S979M0laLfX8rm82Q==
   dependencies:
     is-typedarray "^1.0.0"
+
+typescript-utility-types@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/typescript-utility-types/-/typescript-utility-types-1.1.1.tgz#9070c30382fc10a6cc88665f0abb0e097e8d6e6d"
+  integrity sha512-PNEvAy4b1/ANxE8sYfM+d8QgKgq+FUTV53/QQEQiApor584iJ/RLJc2DeS+jBPJnHgq+2C0mb05IUHBgUsnWtw==
 
 typescript@^4.0.5:
   version "4.0.5"
