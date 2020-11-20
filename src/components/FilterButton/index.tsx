@@ -1,6 +1,5 @@
 import { FilterOutlined } from '@ori-ui/icons';
 import { Button, IconButton, makeStyles, Theme, useMediaQuery } from '@ori-ui/material-ui';
-import React from 'react';
 
 const useStyles = makeStyles(theme => ({
   iconButton: {

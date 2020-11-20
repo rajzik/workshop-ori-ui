@@ -1,4 +1,4 @@
-import React, { createContext, FC, useContext } from 'react';
+import { createContext, FC, useContext } from 'react';
 import { data } from '~/constants';
 
 const DataContext = createContext(data);

@@ -7,7 +7,6 @@ import {
   Typography,
   useMediaQuery,
 } from '@ori-ui/material-ui';
-import React from 'react';
 import ClaimList from '../ClaimList';
 import Filters from '../Filters';
 

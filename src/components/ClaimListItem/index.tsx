@@ -1,6 +1,6 @@
 import { Box, ListItem, makeStyles, Typography } from '@ori-ui/material-ui';
 import { ArrowRightThin } from '@ori-ui/icons';
-import React, { VFC } from 'react';
+import { VFC } from 'react';
 import clsx from 'clsx';
 import { data } from '~/constants';
 

@@ -1,5 +1,4 @@
 import { Divider, List, makeStyles } from '@ori-ui/material-ui';
-import React from 'react';
 import { useData } from '~/containers';
 import ClaimListItem from '../ClaimListItem';
 

@@ -1,6 +1,5 @@
 import { Search } from '@ori-ui/icons';
 import { Box, InputAdornment, makeStyles, TextField } from '@ori-ui/material-ui';
-import React from 'react';
 import FilterButton from '../FilterButton';
 
 const useStyles = makeStyles(theme => ({

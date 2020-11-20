@@ -1,4 +1,3 @@
-import React from 'react';
 import { makeStyles, Typography } from '@ori-ui/material-ui';
 import { Switch } from '@ori-ui/components';
 import HistoryCard from '../HistoryCard';

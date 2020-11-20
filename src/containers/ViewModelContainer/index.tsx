@@ -1,4 +1,4 @@
-import React, { createContext, FC, useContext } from 'react';
+import { createContext, FC, useContext } from 'react';
 import { viewModel } from '~/constants';
 
 const ViewModelContext = createContext(viewModel);
