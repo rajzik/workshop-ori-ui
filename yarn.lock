@@ -1876,10 +1876,10 @@
     babel-plugin-typescript-to-proptypes "^1.4.2"
     react-refresh "^0.9.0"
 
-"@oriflame/config-eslint@^1.0.17":
-  version "1.0.17"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-eslint/-/config-eslint-1.0.17.tgz#8444a395d00091f69e3d600596188273670bd304"
-  integrity sha512-rn5z/WFAM2UoHUZWqAolHqjFclDexUBJTVjhYN8nWHOsE//KqDDDNUHS2I9ammF8AlNCxaU+SkJn8QZFGD0jKQ==
+"@oriflame/config-eslint@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-eslint/-/config-eslint-1.1.0.tgz#61e2d6b46b60e5f4ed43a963bbf269c391fdaf22"
+  integrity sha512-7KZyVL82J7SwQmcdxhD8Gchd3et28mtHTc/kgADFwOCHlpcVC39dFUVuP7UmahRx/sS0oFM9rqFM0Y3gv7yNng==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-eslint" "^1.2.3"
@@ -1921,30 +1921,30 @@
   optionalDependencies:
     "@testing-library/react" ">=11"
 
-"@oriflame/config-prettier@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-prettier/-/config-prettier-1.0.7.tgz#d7301b196c079f327b395a27dd1474105fd886c4"
-  integrity sha512-1aASgcOVc2PLt+ZsHy8Fr6jBXYZNoIYK0LKUBsdmYgVLIz02cWzfP1BqjbdJQceMTeesEzd8+QfgDJuEd7Ra/A==
+"@oriflame/config-prettier@^1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-prettier/-/config-prettier-1.0.8.tgz#5c64dd3db019dde604dae21b3c746ebc48dad0ec"
+  integrity sha512-b9h5N5Ecr43v/XuaGXMlR1T/cX/DR3w3fbp67JHUNj8ewKv83Ttk1ysFb0nInXW51GUSaSqUAvY9IfbqV/WiWA==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-prettier" "^1.3.2"
     "@oriflame/lumos-common" "^2.0.4"
-    prettier "^2.1.2"
+    prettier "^2.2.0"
 
-"@oriflame/config-typescript@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-typescript/-/config-typescript-1.0.8.tgz#37d0acf9f0e40aea2204f902ee6f3abd1187b5dc"
-  integrity sha512-4n5wzY+hPIj+6WHQuMQCiulWgdUhAfpta27rHloYNzq0hDwEi67WkN6EY02pxRCBnbjCZeiSjIWl+KbEuatZqQ==
+"@oriflame/config-typescript@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-typescript/-/config-typescript-1.1.0.tgz#1def82a4bad1e56f6e9babc6f4fe8355a011470e"
+  integrity sha512-ybB0JwKQsqwBNtkyDPifp4EeHNA5PVDJiVbPuJtDalMuh4G4BvEvcCEG/sDLtqzAAtRVmNfMUz1j2fmrwBXUdw==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-typescript" "^1.4.1"
     "@oriflame/lumos-common" "^2.0.4"
-    typescript "^4.0.5"
+    typescript "^4.1.2"
 
-"@oriflame/config-webpack@^2.0.17":
-  version "2.0.17"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-webpack/-/config-webpack-2.0.17.tgz#628bdce0ae0c20c37def640efb683794c315d855"
-  integrity sha512-lwH5akJlWSrjrlEkEax+NbxW6kyX2R/v0c2vuGyGf4WLhR1h7yydATVV8NWpIv2imXsbgMasS3RqoGCcuQbzOg==
+"@oriflame/config-webpack@^2.0.18":
+  version "2.0.18"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-webpack/-/config-webpack-2.0.18.tgz#e3869440d6bc2e7e601470d614f53fda04c6042f"
+  integrity sha512-YxurynqD6L0LVoJzp67FwZbKouBLxCRtyjkw8weDFgo7VoJQ3O7p3qP2RKIkJZDa1ZwqSxo+NhJB7MpiaTgotw==
   dependencies:
     "@babel/core" "^7.12.3"
     "@beemo/core" "^1.1.8"
@@ -1960,11 +1960,11 @@
     file-loader "^6.2.0"
     html-webpack-plugin "^4.5.0"
     is-docker "^2.1.1"
-    postcss "^8.1.7"
+    postcss "^8.1.8"
     postcss-browser-reporter "^0.6.0"
     postcss-flexbugs-fixes "^5.0.1"
     postcss-import "^13.0.0"
-    postcss-loader "^4.0.4"
+    postcss-loader "^4.1.0"
     postcss-modules "^3.2.2"
     postcss-modules-values "^4.0.0"
     postcss-normalize "^9.0.0"
@@ -1975,7 +1975,7 @@
     style-loader "^2.0.0"
     terser-webpack-plugin "^5.0.3"
     url-loader "^4.1.1"
-    webpack "^5.5.1"
+    webpack "^5.6.0"
     webpack-bundle-analyzer "^4.1.0"
     webpack-cli "4.2.0"
     webpack-dev-server "^3.11.0"
@@ -2010,10 +2010,10 @@
     execa "^4.1.0"
     fast-glob "^3.2.4"
 
-"@oriflame/lumos@^2.0.30":
-  version "2.0.30"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.0.30.tgz#840bdc3c639d7f039937d1f9f35aca539c0e7ddd"
-  integrity sha512-LXqylI/1FyUrr186y5/JLEKwdvRYRV7ZNV66Ts603bCHKa9ijin3yVMVs0jUaEOAhYpwzNsN+SYdLc/5RdzhwA==
+"@oriflame/lumos@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.1.0.tgz#7ba23e7d3d62f547000e7078a0895ba018ba020a"
+  integrity sha512-71Kx0nFcNnu7mFImFM9IZepHUj7y+o/JtBTlTMbu3mwoVX6vKaMBTS4KrLuQS/Z+saY431EBzGL9ZnlgD5cjgg==
   dependencies:
     "@actions/core" "^1.2.6"
     "@actions/github" "^4.0.0"
@@ -2290,10 +2290,18 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^16.9.56":
+"@types/react@*":
   version "16.9.56"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.56.tgz#ea25847b53c5bec064933095fc366b1462e2adf0"
   integrity sha512-gIkl4J44G/qxbuC6r2Xh+D3CGZpJ+NdWTItAPmZbR5mUS+JQ8Zvzpl0ea5qT/ZT3ZNTUcDKUVqV3xBE8wv/DyQ==
+  dependencies:
+    "@types/prop-types" "*"
+    csstype "^3.0.2"
+
+"@types/react@^16.14.0":
+  version "16.14.0"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.14.0.tgz#bc022cfe1609899b0f2196376b267724e7300f0e"
+  integrity sha512-jJjHo1uOe+NENRIBvF46tJimUvPnmbQ41Ax0pEm7pRvhPg+wuj8VMOHHiMvaGmZRzRrCtm7KnL5OOE/6kHPK8w==
   dependencies:
     "@types/prop-types" "*"
     csstype "^3.0.2"
@@ -9200,10 +9208,10 @@ postcss-lab-function@^2.0.1:
     postcss "^7.0.2"
     postcss-values-parser "^2.0.0"
 
-postcss-loader@^4.0.4:
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/postcss-loader/-/postcss-loader-4.0.4.tgz#b2d005b52e008a44991cf8123bee207e635eb53e"
-  integrity sha512-pntA9zIR14drQo84yGTjQJg1m7T0DkXR4vXYHBngiRZdJtEeCrojL6lOpqUanMzG375lIJbT4Yug85zC/AJWGw==
+postcss-loader@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/postcss-loader/-/postcss-loader-4.1.0.tgz#4647a6c8dad3cb6b253fbfaa21d62201086f6e39"
+  integrity sha512-vbCkP70F3Q9PIk6d47aBwjqAMI4LfkXCoyxj+7NPNuVIwfTGdzv2KVQes59/RuxMniIgsYQCFSY42P3+ykJfaw==
   dependencies:
     cosmiconfig "^7.0.0"
     klona "^2.0.4"
@@ -9684,10 +9692,20 @@ postcss@^7, postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.17, po
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-postcss@^8.1.4, postcss@^8.1.7:
+postcss@^8.1.4:
   version "8.1.7"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.1.7.tgz#ff6a82691bd861f3354fd9b17b2332f88171233f"
   integrity sha512-llCQW1Pz4MOPwbZLmOddGM9eIJ8Bh7SZ2Oj5sxZva77uVaotYDsYTch1WBTNu7fUY0fpWp0fdt7uW40D4sRiiQ==
+  dependencies:
+    colorette "^1.2.1"
+    line-column "^1.0.2"
+    nanoid "^3.1.16"
+    source-map "^0.6.1"
+
+postcss@^8.1.8:
+  version "8.1.8"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.1.8.tgz#697439e7276735ecdd2893d2cf8efb2236693ac3"
+  integrity sha512-hO6jFWBy0QnBBRaw+s0F4hVPKGDICec/nLNEG1D4qqw9/LBzWMkTjckqqELXAo0J42jN8GFZXtgQfezEaoG9gQ==
   dependencies:
     colorette "^1.2.1"
     line-column "^1.0.2"
@@ -9711,10 +9729,10 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.1.2.tgz#3050700dae2e4c8b67c4c3f666cdb8af405e1ce5"
-  integrity sha512-16c7K+x4qVlJg9rEbXl7HEGmQyZlG4R9AgP+oHKRMsMsuk8s+ATStlf1NpDqyBI1HpVyfjLOeMhH2LvuNvV5Vg==
+prettier@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.2.0.tgz#8a03c7777883b29b37fb2c4348c66a78e980418b"
+  integrity sha512-yYerpkvseM4iKD/BXLYUkQV5aKt4tQPqaGW6EsZjzyu0r7sVZZNPJW4Y8MyKmicp6t42XUPcBVA+H6sB3gqndw==
 
 pretty-error@^2.1.1:
   version "2.1.2"
@@ -11521,10 +11539,10 @@ typescript-utility-types@^1.1.1:
   resolved "https://registry.yarnpkg.com/typescript-utility-types/-/typescript-utility-types-1.1.1.tgz#9070c30382fc10a6cc88665f0abb0e097e8d6e6d"
   integrity sha512-PNEvAy4b1/ANxE8sYfM+d8QgKgq+FUTV53/QQEQiApor584iJ/RLJc2DeS+jBPJnHgq+2C0mb05IUHBgUsnWtw==
 
-typescript@^4.0.5:
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.0.5.tgz#ae9dddfd1069f1cb5beb3ef3b2170dd7c1332389"
-  integrity sha512-ywmr/VrTVCmNTJ6iV2LwIrfG1P+lv6luD8sUJs+2eI9NLGigaN+nUQc13iHqisq7bra9lnmUSYqbJvegraBOPQ==
+typescript@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.1.2.tgz#6369ef22516fe5e10304aae5a5c4862db55380e9"
+  integrity sha512-thGloWsGH3SOxv1SoY7QojKi0tc+8FnOmiarEGMbd/lar7QOEd3hvlx3Fp5y6FlDUGl9L+pd4n2e+oToGMmhRQ==
 
 typical@^5.0.0, typical@^5.2.0:
   version "5.2.0"
@@ -11947,10 +11965,10 @@ webpack-sources@^2.1.1:
     source-list-map "^2.0.1"
     source-map "^0.6.1"
 
-webpack@^5.5.1:
-  version "5.5.1"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.5.1.tgz#d6537f85554a0e59f15e6e683af11befdd0476aa"
-  integrity sha512-v4RzZP9BG2xxMLhxcFIo89M+nyIqGjh35Bhm5EE+I2N8y3dc9jT5OSb1HewUMkzMPyyDscOkVD6pSn6EMtTwNQ==
+webpack@^5.6.0:
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.6.0.tgz#282d10434c403b070ed91d459b385e873b51a07d"
+  integrity sha512-SIeFuBhuheKElRbd84O35UhKc0nxlgSwtzm2ksZ0BVhRJqxVJxEguT/pYhfiR0le/pxTa1VsCp7EOYyTsa6XOA==
   dependencies:
     "@types/eslint-scope" "^3.7.0"
     "@types/estree" "^0.0.45"
