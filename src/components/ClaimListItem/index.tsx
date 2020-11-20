@@ -36,11 +36,11 @@ const useStyles = makeStyles(theme => ({
   },
   status1: {
     borderColor: theme.palette.warning.main,
-    color: theme.palette.warning.dark,
+    color: theme.palette.background.husk,
   },
   status2: {
     borderColor: theme.palette.warning.main,
-    color: theme.palette.warning.dark,
+    color: theme.palette.background.husk,
   },
   status3: {
     borderColor: theme.palette.success.main,
