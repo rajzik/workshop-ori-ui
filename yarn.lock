@@ -1146,7 +1146,7 @@
     pretty-ms "^5.1.0"
     yaml "^1.9.2"
 
-"@boost/common@^2.3.0":
+"@boost/common@^2.4.0":
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@boost/common/-/common-2.4.0.tgz#c2ab1f0f97bef936913172dfd068480936185a72"
   integrity sha512-0rU9SfVJb7d1zQpRo3/aN3mCnuh3vz6w0QRIPnlJw+uV3CI0SjK/jbtnqorJzMqCSllbwu6fH4AOkDA1abQdpg==
@@ -1849,10 +1849,10 @@
     clsx "^1.1.1"
     lodash "^4.17.20"
 
-"@oriflame/config-babel@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-babel/-/config-babel-1.0.7.tgz#867a17f550a77f494cc936c02315b9f67f5d543c"
-  integrity sha512-XHgcSAJ0TkJPc0v2j+mxxb14xyqq70u7owEBMfNBnP58ei8bVYjHdbMFAoGt8WoUS8Ig6s9SXqIw88R5fbC3TA==
+"@oriflame/config-babel@^1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-babel/-/config-babel-1.0.10.tgz#d9d5d6e0242acee9f4651d7dd37e67e335c75046"
+  integrity sha512-E6gdVKs4USc/gP4UKAzDeTYNgQxIxe0rtl7xWaPTLj6c9Y+CLYez3K99jCIGTEz5Ep6J2pt1/0mYt1R/K5EmUw==
   dependencies:
     "@babel/cli" "^7.12.1"
     "@babel/core" "^7.12.3"
@@ -1867,7 +1867,7 @@
     "@babel/preset-typescript" "^7.12.1"
     "@beemo/core" "^1.1.8"
     "@beemo/driver-babel" "^1.2.6"
-    "@oriflame/lumos-common" "^2.0.2"
+    "@oriflame/lumos-common" "^2.0.4"
     babel-plugin-graphql-tag "^3.1.0"
     babel-plugin-module-resolver "^4.0.0"
     babel-plugin-optimize-clsx "^2.6.1"
@@ -1876,42 +1876,42 @@
     babel-plugin-typescript-to-proptypes "^1.4.2"
     react-refresh "^0.9.0"
 
-"@oriflame/config-eslint@^1.0.9":
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-eslint/-/config-eslint-1.0.9.tgz#dea73e695baa3c7aafa976c852603b009ef7e615"
-  integrity sha512-JbmOAOmlOGsn7nDKj3InQCDDK7WOMbHfXUp3Bxp/X0D4uhfEtP0MP6LScAgZKxbPqCA9HEW29Kl4CGaiO1SZ1A==
+"@oriflame/config-eslint@^1.0.17":
+  version "1.0.17"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-eslint/-/config-eslint-1.0.17.tgz#8444a395d00091f69e3d600596188273670bd304"
+  integrity sha512-rn5z/WFAM2UoHUZWqAolHqjFclDexUBJTVjhYN8nWHOsE//KqDDDNUHS2I9ammF8AlNCxaU+SkJn8QZFGD0jKQ==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-eslint" "^1.2.3"
-    "@oriflame/lumos-common" "^2.0.2"
-    "@typescript-eslint/eslint-plugin" "^4.6.1"
-    "@typescript-eslint/parser" "^4.6.1"
+    "@oriflame/lumos-common" "^2.0.4"
+    "@typescript-eslint/eslint-plugin" "^4.8.1"
+    "@typescript-eslint/parser" "^4.8.1"
     babel-eslint "^10.1.0"
     eslint "^7.13.0"
     eslint-config-airbnb "^18.2.1"
     eslint-config-prettier "^6.15.0"
     eslint-import-resolver-typescript "^2.3.0"
     eslint-plugin-import "^2.22.1"
-    eslint-plugin-jest "^24.1.0"
+    eslint-plugin-jest "^24.1.3"
     eslint-plugin-jsx-a11y "^6.4.1"
     eslint-plugin-prettier "^3.1.4"
     eslint-plugin-promise "^4.2.1"
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.2.0"
-    eslint-plugin-testing-library "^3.10.0"
+    eslint-plugin-testing-library "^3.10.1"
     eslint-plugin-unicorn "^23.0.0"
 
-"@oriflame/config-jest@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-jest/-/config-jest-1.0.7.tgz#4303c2e2ac8132a432c5fcce0863e50d5b558948"
-  integrity sha512-B+S0bN5bMgD4z44f9FsMhEcnwi1y4U3Oh0xK1OzVq85ImWjBcwTLBx19cMZH1Z098nlLCNaS0kNj8rAJky5khg==
+"@oriflame/config-jest@^1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-jest/-/config-jest-1.0.10.tgz#10afcd38fc89746e3ca197a8eb4d3e62514692ea"
+  integrity sha512-ySpoLhllgbTE7xwkpOAM3cZOXtXcwB58BAkLjoxPtrxJEPRrAK5xreeQCyXvjupJn2SQ14eT02x3bA9wcmvX+w==
   dependencies:
     "@babel/core" "^7.12.3"
     "@beemo/core" "^1.1.8"
     "@beemo/driver-babel" "^1.2.6"
     "@beemo/driver-jest" "^1.2.3"
-    "@oriflame/lumos-common" "^2.0.2"
-    "@testing-library/jest-dom" "^5.11.5"
+    "@oriflame/lumos-common" "^2.0.4"
+    "@testing-library/jest-dom" "^5.11.6"
     "@types/jest" "^26.0.15"
     airbnb-js-shims "^2.2.1"
     cross-env "^7.0.2"
@@ -1921,37 +1921,37 @@
   optionalDependencies:
     "@testing-library/react" ">=11"
 
-"@oriflame/config-prettier@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-prettier/-/config-prettier-1.0.5.tgz#c351d7e968493018f0ce88a97a02b6cbf20bada2"
-  integrity sha512-f68d7AzxVpPJqJMWZOSZy4pfHd6sbEzjiSPNX0KTY5aFCaw3/HLaMhzFPgtV7bNzjDeGNXX46Gqq0F0y0pcg1g==
+"@oriflame/config-prettier@^1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-prettier/-/config-prettier-1.0.7.tgz#d7301b196c079f327b395a27dd1474105fd886c4"
+  integrity sha512-1aASgcOVc2PLt+ZsHy8Fr6jBXYZNoIYK0LKUBsdmYgVLIz02cWzfP1BqjbdJQceMTeesEzd8+QfgDJuEd7Ra/A==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-prettier" "^1.3.2"
-    "@oriflame/lumos-common" "^2.0.2"
+    "@oriflame/lumos-common" "^2.0.4"
     prettier "^2.1.2"
 
-"@oriflame/config-typescript@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-typescript/-/config-typescript-1.0.4.tgz#b43b578759d0bab52bc9a776f3897cf5aa3701b3"
-  integrity sha512-TNMBpH4YlRlvaYnZzd0s8h7oLwHgej4wn6XA2pvUhQ0IV50quP8iS6/hiYuJYdkkbsbBLruT8lJ97bX5apj4LA==
+"@oriflame/config-typescript@^1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-typescript/-/config-typescript-1.0.8.tgz#37d0acf9f0e40aea2204f902ee6f3abd1187b5dc"
+  integrity sha512-4n5wzY+hPIj+6WHQuMQCiulWgdUhAfpta27rHloYNzq0hDwEi67WkN6EY02pxRCBnbjCZeiSjIWl+KbEuatZqQ==
   dependencies:
     "@beemo/core" "^1.1.8"
     "@beemo/driver-typescript" "^1.4.1"
-    "@oriflame/lumos-common" "^2.0.2"
+    "@oriflame/lumos-common" "^2.0.4"
     typescript "^4.0.5"
 
-"@oriflame/config-webpack@^2.0.10":
-  version "2.0.10"
-  resolved "https://registry.yarnpkg.com/@oriflame/config-webpack/-/config-webpack-2.0.10.tgz#fe8ef777370b8c492142de0af8a8dbeef3a99be4"
-  integrity sha512-vKbVKVgvwnfguTu2V4Yl+8QnXQymz8GadOwvern8hmSOLqdczN0SMOOtXPlZQhzYCtKSx1/+bu5xhEyzke51BA==
+"@oriflame/config-webpack@^2.0.17":
+  version "2.0.17"
+  resolved "https://registry.yarnpkg.com/@oriflame/config-webpack/-/config-webpack-2.0.17.tgz#628bdce0ae0c20c37def640efb683794c315d855"
+  integrity sha512-lwH5akJlWSrjrlEkEax+NbxW6kyX2R/v0c2vuGyGf4WLhR1h7yydATVV8NWpIv2imXsbgMasS3RqoGCcuQbzOg==
   dependencies:
     "@babel/core" "^7.12.3"
     "@beemo/core" "^1.1.8"
     "@beemo/driver-webpack" "^1.2.6"
-    "@oriflame/lumos-common" "^2.0.2"
+    "@oriflame/lumos-common" "^2.0.4"
     "@pmmmwh/react-refresh-webpack-plugin" "^0.4.3"
-    babel-loader "^8.1.0"
+    babel-loader "^8.2.1"
     cross-env "^7.0.2"
     css-loader "^5.0.1"
     css-minimizer-webpack-plugin "^1.1.5"
@@ -1960,9 +1960,9 @@
     file-loader "^6.2.0"
     html-webpack-plugin "^4.5.0"
     is-docker "^2.1.1"
-    postcss "^8.1.6"
+    postcss "^8.1.7"
     postcss-browser-reporter "^0.6.0"
-    postcss-flexbugs-fixes "^5.0.0"
+    postcss-flexbugs-fixes "^5.0.1"
     postcss-import "^13.0.0"
     postcss-loader "^4.0.4"
     postcss-modules "^3.2.2"
@@ -1975,7 +1975,7 @@
     style-loader "^2.0.0"
     terser-webpack-plugin "^5.0.3"
     url-loader "^4.1.1"
-    webpack "^5.4.0"
+    webpack "^5.5.1"
     webpack-bundle-analyzer "^4.1.0"
     webpack-cli "4.2.0"
     webpack-dev-server "^3.11.0"
@@ -2000,27 +2000,27 @@
   dependencies:
     "@oriflame/conventional-changelog-types" "^1.0.3"
 
-"@oriflame/lumos-common@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-2.0.2.tgz#b0984f91c1ddb594545bf174369aabd5bf3568c4"
-  integrity sha512-Y0GX70p5IXgHKNxNdK3uYeNg3NSIvEIbteQahyZ6NSryeNFp0OYZuxDEssZTQT30miUze01W/BwK+uFT37jWbg==
+"@oriflame/lumos-common@^2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos-common/-/lumos-common-2.0.4.tgz#4aa4b2a7099a686dc9378843e10595a644a54494"
+  integrity sha512-iapm2uVODGGkVplV5Mma6hN/JeUlk95BTK5vZzKl0Q2KzEltHbx9fb1g6iGNR25lE6z4JvdK2C6M/2Eboo6NCQ==
   dependencies:
     "@beemo/core" "^1.1.8"
-    "@boost/common" "^2.3.0"
+    "@boost/common" "^2.4.0"
     execa "^4.1.0"
     fast-glob "^3.2.4"
 
-"@oriflame/lumos@^2.0.16":
-  version "2.0.16"
-  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.0.16.tgz#4da68e0e352d1d5e0cc48a9bdddbc735b8c1e419"
-  integrity sha512-P7TesXhe9wjwSeWtajzaFjjZNcc+MR+iwl8Pudci7o9+RLKufnqDDRtzS0u2zT5PsRtGk6rAaQfVffzfCwIFtw==
+"@oriflame/lumos@^2.0.30":
+  version "2.0.30"
+  resolved "https://registry.yarnpkg.com/@oriflame/lumos/-/lumos-2.0.30.tgz#840bdc3c639d7f039937d1f9f35aca539c0e7ddd"
+  integrity sha512-LXqylI/1FyUrr186y5/JLEKwdvRYRV7ZNV66Ts603bCHKa9ijin3yVMVs0jUaEOAhYpwzNsN+SYdLc/5RdzhwA==
   dependencies:
     "@actions/core" "^1.2.6"
     "@actions/github" "^4.0.0"
     "@beemo/cli" "^1.0.11"
     "@beemo/core" "^1.1.8"
     "@oriflame/conventional-changelog" "^1.0.6"
-    "@oriflame/lumos-common" "^2.0.2"
+    "@oriflame/lumos-common" "^2.0.4"
     chalk "^4.1.0"
     check-node-version "^4.0.3"
     cross-env "^7.0.2"
@@ -2068,7 +2068,7 @@
     lz-string "^1.4.4"
     pretty-format "^26.6.2"
 
-"@testing-library/jest-dom@^5.11.5":
+"@testing-library/jest-dom@^5.11.6":
   version "5.11.6"
   resolved "https://registry.yarnpkg.com/@testing-library/jest-dom/-/jest-dom-5.11.6.tgz#782940e82e5cd17bc0a36f15156ba16f3570ac81"
   integrity sha512-cVZyUNRWwUKI0++yepYpYX7uhrP398I+tGz4zOlLVlUYnZS+Svuxv4fwLeCIy7TnBYKXUaOlQr3vopxL8ZfEnA==
@@ -2360,7 +2360,7 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@typescript-eslint/eslint-plugin@^4.6.1":
+"@typescript-eslint/eslint-plugin@^4.8.1":
   version "4.8.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-4.8.1.tgz#b362abe0ee478a6c6d06c14552a6497f0b480769"
   integrity sha512-d7LeQ7dbUrIv5YVFNzGgaW3IQKMmnmKFneRWagRlGYOSfLJVaRbj/FrBNOBC1a3tVO+TgNq1GbHvRtg1kwL0FQ==
@@ -2396,7 +2396,7 @@
     eslint-scope "^5.0.0"
     eslint-utils "^2.0.0"
 
-"@typescript-eslint/parser@^4.6.1":
+"@typescript-eslint/parser@^4.8.1":
   version "4.8.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-4.8.1.tgz#4fe2fbdbb67485bafc4320b3ae91e34efe1219d1"
   integrity sha512-QND8XSVetATHK9y2Ltc/XBl5Ro7Y62YuZKnPEwnNPB8E379fDsvzJ1dMJ46fg/VOmk0hXhatc+GXs5MaXuL5Uw==
@@ -3086,7 +3086,7 @@ babel-literal-to-ast@^2.1.0:
     "@babel/traverse" "^7.1.6"
     "@babel/types" "^7.1.6"
 
-babel-loader@^8.1.0:
+babel-loader@^8.2.1:
   version "8.2.1"
   resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-8.2.1.tgz#e53313254677e86f27536f5071d807e01d24ec00"
   integrity sha512-dMF8sb2KQ8kJl21GUjkW1HWmcsL39GOV5vnzjqrCzEPNY0S0UfMLnumidiwIajDSBmKhYf5iRW+HXaM4cvCKBw==
@@ -4970,7 +4970,7 @@ eslint-plugin-import@^2.22.1:
     resolve "^1.17.0"
     tsconfig-paths "^3.9.0"
 
-eslint-plugin-jest@^24.1.0:
+eslint-plugin-jest@^24.1.3:
   version "24.1.3"
   resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-24.1.3.tgz#fa3db864f06c5623ff43485ca6c0e8fc5fe8ba0c"
   integrity sha512-dNGGjzuEzCE3d5EPZQ/QGtmlMotqnYWD/QpCZ1UuZlrMAdhG5rldh0N0haCvhGnUkSeuORS5VNROwF9Hrgn3Lg==
@@ -5028,10 +5028,10 @@ eslint-plugin-react@^7.21.5:
     resolve "^1.18.1"
     string.prototype.matchall "^4.0.2"
 
-eslint-plugin-testing-library@^3.10.0:
-  version "3.10.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-3.10.0.tgz#8c3c9c475bb4e5794446920d363403ae5bcf7f1c"
-  integrity sha512-zqITQ9qS9tdTG5hY+JnY4k3osolg4sGMD9gTnJr0L1xKB8CvPXXts7tp331ZjQ6qL37kRgH0288/XtsG+bcsxQ==
+eslint-plugin-testing-library@^3.10.1:
+  version "3.10.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-3.10.1.tgz#4dd02306d601c3238fdabf1d1dbc5f2a8e85d531"
+  integrity sha512-nQIFe2muIFv2oR2zIuXE4vTbcFNx8hZKRzgHZqJg8rfopIWwoTwtlbCCNELT/jXzVe1uZF68ALGYoDXjLczKiQ==
   dependencies:
     "@typescript-eslint/experimental-utils" "^3.10.1"
 
@@ -9131,7 +9131,7 @@ postcss-env-function@^2.0.2:
     postcss "^7.0.2"
     postcss-values-parser "^2.0.0"
 
-postcss-flexbugs-fixes@^5.0.0:
+postcss-flexbugs-fixes@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/postcss-flexbugs-fixes/-/postcss-flexbugs-fixes-5.0.1.tgz#8a4b84937e94e7c100e48e019eaad33850bc7b33"
   integrity sha512-CBEfCMk5hcqGlgRb9SDzQ3bIExJlfz89heRsAYNuNRiCJOETlVOL1KfBV1AGKFww8olEpOOSAgGiWeaGTPCkeg==
@@ -9684,7 +9684,7 @@ postcss@^7, postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.17, po
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-postcss@^8.1.4, postcss@^8.1.6:
+postcss@^8.1.4, postcss@^8.1.7:
   version "8.1.7"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.1.7.tgz#ff6a82691bd861f3354fd9b17b2332f88171233f"
   integrity sha512-llCQW1Pz4MOPwbZLmOddGM9eIJ8Bh7SZ2Oj5sxZva77uVaotYDsYTch1WBTNu7fUY0fpWp0fdt7uW40D4sRiiQ==
@@ -11947,10 +11947,10 @@ webpack-sources@^2.1.1:
     source-list-map "^2.0.1"
     source-map "^0.6.1"
 
-webpack@^5.4.0:
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.5.0.tgz#250b3fdc1d876c7e58269d1406e7f9790af04f06"
-  integrity sha512-gyr7VE8zXJP81ZvS8+5dDphS2kaE0r8bpVWX6SxkBlzlX3hYfBS96kaltuf2cYK/BKJlUw5Aex/fKC34HUn+hA==
+webpack@^5.5.1:
+  version "5.5.1"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.5.1.tgz#d6537f85554a0e59f15e6e683af11befdd0476aa"
+  integrity sha512-v4RzZP9BG2xxMLhxcFIo89M+nyIqGjh35Bhm5EE+I2N8y3dc9jT5OSb1HewUMkzMPyyDscOkVD6pSn6EMtTwNQ==
   dependencies:
     "@types/eslint-scope" "^3.7.0"
     "@types/estree" "^0.0.45"
