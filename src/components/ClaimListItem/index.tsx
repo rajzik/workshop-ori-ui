@@ -16,6 +16,13 @@ const useStyles = makeStyles(theme => ({
     borderLeft: '7px solid',
     borderRadius: '3px 0 0 3px',
     padding: theme.spacing(3, 3, 5, 2),
+    [theme.breakpoints.up('md')]: {
+      gridTemplateAreas: `
+        'category-name claim-number claim-date status'
+      `,
+      gridTemplateColumns: '1fr 1fr 1fr 1fr',
+      padding: theme.spacing(5, 3, 6, 2),
+    },
   },
   status: {
     display: 'flex',
@@ -63,16 +70,25 @@ const ClaimListItem: VFC<typeof data['HistoryItems'][number]> = props => {
           {ClaimCategoryName}
         </Typography>
       </Box>
-      <Box gridArea="status" display="flex" alignItems="center">
+      <Box
+        gridArea="status"
+        display="flex"
+        alignItems="center"
+        justifySelf={{ xs: 'initial', md: 'end' }}
+      >
         <Typography variant="body2" component="span" className={classes.status} color="inherit">
           {StatusName}
         </Typography>
         <ArrowRightThin fontSize="small" />
       </Box>
-      <Box gridArea="claim-number">
+      <Box gridArea="claim-number" justifySelf={{ xs: 'initial', md: 'center' }}>
         <Typography color="textPrimary">{ClaimNo}</Typography>
       </Box>
-      <Box gridArea="claim-date" color="text.disabled">
+      <Box
+        gridArea="claim-date"
+        color="text.disabled"
+        justifySelf={{ xs: 'initial', md: 'center' }}
+      >
         <Typography color="inherit">{ClaimDate}</Typography>
       </Box>
     </ListItem>
