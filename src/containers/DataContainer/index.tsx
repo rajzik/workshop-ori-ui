@@ -7,8 +7,8 @@ const DataProvider = DataContext.Provider;
 
 export const useData = () => useContext(DataContext);
 
-export const DataContainer: FC = ({ children }) => {
+export const DataContainer: FC = ({ children }) => (
   // This container should contain logic for data fetching.
 
-  return <DataProvider value={data}>{children}</DataProvider>;
-};
+  <DataProvider value={data}>{children}</DataProvider>
+);

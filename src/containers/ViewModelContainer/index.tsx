@@ -7,8 +7,8 @@ const ViewModelProvider = ViewModelContext.Provider;
 
 export const useViewModel = () => useContext(ViewModelContext);
 
-export const ViewModelContainer: FC = ({ children }) => {
+export const ViewModelContainer: FC = ({ children }) => (
   // This container should contain logic for data fetching.
 
-  return <ViewModelProvider value={viewModel}>{children}</ViewModelProvider>;
-};
+  <ViewModelProvider value={viewModel}>{children}</ViewModelProvider>
+);
