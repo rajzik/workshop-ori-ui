@@ -4,7 +4,7 @@ import { VFC } from 'react';
 import clsx from 'clsx';
 import { data } from '~/constants';
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     display: 'grid',
     gridTemplateAreas: `
@@ -36,11 +36,11 @@ const useStyles = makeStyles(theme => ({
   },
   status1: {
     borderColor: theme.palette.warning.main,
-    color: theme.palette.background.husk,
+    color: theme.palette.warning.light,
   },
   status2: {
     borderColor: theme.palette.warning.main,
-    color: theme.palette.background.husk,
+    color: theme.palette.warning.light,
   },
   status3: {
     borderColor: theme.palette.success.main,
@@ -52,7 +52,7 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-const ClaimListItem: VFC<typeof data['HistoryItems'][number]> = props => {
+const ClaimListItem: VFC<typeof data['HistoryItems'][number]> = (props) => {
   const {
     Claim: { ClaimCategoryName, ClaimNo, ClaimDate, StatusName, ClaimDetailUrl, StatusId },
   } = props;

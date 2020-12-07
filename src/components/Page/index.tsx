@@ -2,7 +2,7 @@ import { makeStyles, Typography } from '@ori-ui/material-ui';
 import { Switch } from '@ori-ui/components';
 import HistoryCard from '../HistoryCard';
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     display: 'grid',
     gridAutoFlow: 'row',

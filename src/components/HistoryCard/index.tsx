@@ -10,7 +10,7 @@ import {
 import ClaimList from '../ClaimList';
 import Filters from '../Filters';
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     width: '100%',
     marginTop: theme.spacing(8),
@@ -18,7 +18,7 @@ const useStyles = makeStyles(theme => ({
 }));
 
 export default function HistoryCard() {
-  const isDesktop = useMediaQuery<Theme>(theme => theme.breakpoints.up('md'));
+  const isDesktop = useMediaQuery<Theme>((theme) => theme.breakpoints.up('md'));
   const classes = useStyles();
   return (
     <Card className={classes.root} elevation={Number(isDesktop) * 2}>
